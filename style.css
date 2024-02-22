@@ -157,6 +157,12 @@
 }
 
 
+.plugin-universal .order .order-kompletnost-ok::before {
+    content: url('images/car.png'); /* Zde vložte cestu k obrázku */
+    margin-right: 8px; /* Přidá mezeru mezi obrázkem a textem */
+    vertical-align: middle; /* Aby obrázek byl zarovnán na střed vůči textu */
+  }
+
 .plugin-universal .order .order-kompletnost img {
     position: relative;
     left: 0;
