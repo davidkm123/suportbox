@@ -104,7 +104,7 @@
     margin-right: 4px; /* Přidá mezeru mezi obrázkem a textem */
     position: relative;
     left: 0;
-    top: 0;
+    top: 5px;
 }
 
 
