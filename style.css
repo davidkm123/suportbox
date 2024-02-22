@@ -135,12 +135,20 @@
 
 
 
-.plugin-universal .order .order-kompletnost {
+.plugin-universal .order .order-kompletnost-ok {
     float: right;
     font-size: 12px;
-    color: #ABABAB;
+    color: green;
     margin-top: 6px;
 }
+
+.plugin-universal .order .order-kompletnost-notok {
+    float: right;
+    font-size: 12px;
+    color: red;
+    margin-top: 6px;
+}
+
 
 .plugin-universal .order .order-kompletnost img {
     position: relative;
