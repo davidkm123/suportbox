@@ -73,7 +73,7 @@
 }
 
 .plugin-universal .order .order-number {
-    font-size: 24px;
+    font-size: 14px;
     float: left;
 }
 
@@ -91,7 +91,7 @@
 }
 
 .plugin-universal .order .order-value {
-    font-size: 24px;
+    font-size: 14px;
     float: right;
     font-weight: bold;
 }
