@@ -78,13 +78,31 @@
 }
 
 
-
-.plugin-universal .order .order-number {
+.plugin-universal .order .order-number-kaufland {
     font-size: 14px;
     float: left;
 }
 
-.plugin-universal .order .order-number a {
+.plugin-universal .order .order-number-kaufland::before {
+    content: url('images/kaufland.svg'); /* Zde vložte cestu k obrázku */
+    margin-right: 8px; /* Přidá mezeru mezi obrázkem a textem */
+    vertical-align: middle; /* Aby obrázek byl zarovnán na střed vůči textu */
+  }
+
+
+.plugin-universal .order .order-number-alza {
+    font-size: 14px;
+    float: left;
+}
+
+.plugin-universal .order .order-number-alza::before {
+    content: url('images/alza.png'); /* Zde vložte cestu k obrázku */
+    margin-right: 8px; /* Přidá mezeru mezi obrázkem a textem */
+    vertical-align: middle; /* Aby obrázek byl zarovnán na střed vůči textu */
+  }
+
+
+  .plugin-universal .order a {
     color: #1EA0C9;
     font-weight: bold;
 }
