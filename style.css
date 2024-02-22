@@ -113,7 +113,8 @@
 .plugin-universal .order .order-status-blocked {
     float: left;
     font-size: 12px;
-    color: #5b5959;
+    color: white;
+    background-color: #817f7f;
     margin-top: 6px;
 }
 
@@ -127,7 +128,8 @@
 .plugin-universal .order .order-status-shipping {
     float: left;
     font-size: 12px;
-    color: #ccdd99;
+    color: black;
+    background-color: yellow;
     margin-top: 6px;
 }
 
