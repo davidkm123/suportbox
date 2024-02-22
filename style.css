@@ -101,7 +101,7 @@
     margin-right: 8px; /* Přidá mezeru mezi obrázkem a textem */
     vertical-align: middle; /* Aby obrázek byl zarovnán na střed vůči textu */
     position: relative; /* Přidáno pro použití s 'top' */
-    top: -7px;
+    top: 7px;
   }
 
 
