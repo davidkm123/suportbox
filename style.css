@@ -1,0 +1,143 @@
+.plugin-universal {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.plugin-universal .st-logo {
+    margin: 10px auto 20px auto;
+    width: 114px;
+}
+
+.plugin-universal .pers-info {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.plugin-universal .pers-info img {
+    position: relative;
+    float: left;
+    margin-right: 10px;
+    bottom: -2px;
+    width: 17px;
+}
+
+.plugin-universal .pers-info p {
+    float: left;
+}
+
+.plugin-universal .pers-info a {
+    color: #1EA0C9;
+    font-weight: bold;
+}
+
+.plugin-universal .spent {
+    padding: 10px;
+    width: 100%;
+    background-color: #EEF0F3;
+}
+
+
+.plugin-universal .spent img {
+    float: left;
+    margin-right: 15px;
+    position: relative;
+    bottom: -7px;
+}
+
+.plugin-universal .spent .utraceno {
+    font-size: 14px;
+}
+
+.plugin-universal .spent .value {
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 50px;
+}
+
+.plugin-universal .divider {
+    border: 1px solid #E8E8E8;
+    margin: 20px -10px 20px -10px;
+}
+
+.plugin-universal h2 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin: 0px 0 5px 0;
+}
+
+.plugin-universal .order {
+    border-bottom: 1px solid #E8E8E8;
+    padding: 10px 0 10px 0;
+}
+
+.plugin-universal .order .order-number {
+    font-size: 14px;
+    float: left;
+}
+
+.plugin-universal .order .order-number a {
+    color: #1EA0C9;
+    font-weight: bold;
+}
+
+.plugin-universal .order .order-value {
+    font-size: 14px;
+    float: right;
+    font-weight: bold;
+}
+
+.plugin-universal .order .order-calendar {
+    float: left;
+    font-size: 12px;
+    color: #ABABAB;
+    margin-top: 6px;
+}
+
+.plugin-universal .order .order-calendar img {
+    position: relative;
+    left: 0;
+    top: -2px;
+    margin-right: 0;
+}
+
+.plugin-universal .order .order-car {
+    float: right;
+    font-size: 12px;
+    color: #ABABAB;
+    margin-top: 6px;
+}
+
+.plugin-universal .show-rest {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.plugin-universal .show-rest a {
+    color: #1EA0C9;
+    font-size: 14px;
+}
+
+.cleaner {
+    clear: both;
+}
+.unavailable-data {
+    text-align: center;
+    font-size: 14px;
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1600px) {
+    #mail-ticket-plugins .plugin-universal .order .order-car {
+        float: left;
+        width: 150px;
+    }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1450px) {
+    #mail-ticket-plugins .plugin-universal .order .order-value {
+        float: left;
+        width: 150px;
+        margin: 6px 0 3px 0;
+    }
+}
