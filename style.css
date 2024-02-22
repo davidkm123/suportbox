@@ -109,8 +109,53 @@
     top: 2px;
 }
 
+.plugin-universal .order .order-number-mall {
+    font-size: 14px;
+    float: left;
+    display: flex;
+    align-items: center; /* Zarovná obsah včetně pseudo-prvku vertikálně na střed */    
+}
 
-  .plugin-universal .order a {
+.plugin-universal .order .order-number-mall::before {
+    content: url('images/mall.png'); /* Zde vložte cestu k obrázku */
+    margin-right: 4px; /* Přidá mezeru mezi obrázkem a textem */
+    position: relative;
+    left: 0;
+    top: 2px;
+}
+
+.plugin-universal .order .order-number-shoptet {
+    font-size: 14px;
+    float: left;
+    display: flex;
+    align-items: center; /* Zarovná obsah včetně pseudo-prvku vertikálně na střed */    
+}
+
+.plugin-universal .order .order-number-shoptet::before {
+    content: url('images/shoptet.png'); /* Zde vložte cestu k obrázku */
+    margin-right: 4px; /* Přidá mezeru mezi obrázkem a textem */
+    position: relative;
+    left: 0;
+    top: 2px;
+}
+
+.plugin-universal .order .order-number-allegro {
+    font-size: 14px;
+    float: left;
+    display: flex;
+    align-items: center; /* Zarovná obsah včetně pseudo-prvku vertikálně na střed */    
+}
+
+.plugin-universal .order .order-number-allegto::before {
+    content: url('images/allegro.svg'); /* Zde vložte cestu k obrázku */
+    margin-right: 4px; /* Přidá mezeru mezi obrázkem a textem */
+    position: relative;
+    left: 0;
+    top: 2px;
+}
+
+
+.plugin-universal .order a {
     color: #1EA0C9;
     font-weight: bold;
 }
@@ -134,14 +179,20 @@
     font-size: 12px;
     color: #ABABAB;
     margin-top: 6px;
+    display: flex;
+    align-items: center; /* Zarovná obsah včetně pseudo-prvku vertikálně na střed */    
 }
 
-.plugin-universal .order .order-calendar img {
+.plugin-universal .order .order-calendar::before {
+    content: url('images/calendar.png'); /* Zde vložte cestu k obrázku */
+    margin-right: 8px; /* Přidá mezeru mezi obrázkem a textem */
+    vertical-align: middle; /* Aby obrázek byl zarovnán na střed vůči textu */
     position: relative;
     left: 0;
-    top: -2px;
-    margin-right: 0;
+    top: 2px;
 }
+
+
 
 .plugin-universal .order .order-status-blocked {
     float: left;
@@ -166,6 +217,47 @@
     margin-top: 6px;
 }
 
+.plugin-universal .order .order-status-shipped {
+    float: left;
+    font-size: 12px;
+    color: white;
+    background-color: blue;
+    margin-top: 6px;
+}
+
+.plugin-universal .order .order-status-storno {
+    float: left;
+    font-size: 12px;
+    color: white;
+    background-color: red;
+    margin-top: 6px;
+}
+
+.plugin-universal .order .order-status-cancel {
+    float: left;
+    font-size: 12px;
+    color: white;
+    background-color: red;
+    margin-top: 6px;
+}
+
+
+.plugin-universal .order .order-status-delivered {
+    float: left;
+    font-size: 12px;
+    color: white;
+    background-color: green;
+    margin-top: 6px;
+}
+
+.plugin-universal .order .order-status-returned {
+    float: left;
+    font-size: 12px;
+    color: white;
+    background-color: blueviolet;
+    margin-top: 6px;
+}
+
 
 
 .plugin-universal .order .order-kompletnost-ok {
@@ -173,6 +265,8 @@
     font-size: 12px;
     color: green;
     margin-top: 6px;
+    display: flex;
+    align-items: center; /* Zarovná obsah včetně pseudo-prvku vertikálně na střed */    
 }
 
 .plugin-universal .order .order-kompletnost-notok {
@@ -180,6 +274,8 @@
     font-size: 12px;
     color: red;
     margin-top: 6px;
+    display: flex;
+    align-items: center; /* Zarovná obsah včetně pseudo-prvku vertikálně na střed */    
 }
 
 
@@ -187,22 +283,22 @@
     content: url('images/car.png'); /* Zde vložte cestu k obrázku */
     margin-right: 8px; /* Přidá mezeru mezi obrázkem a textem */
     vertical-align: middle; /* Aby obrázek byl zarovnán na střed vůči textu */
-  }
+    position: relative;
+    left: 0;
+    top: 2px;
+}
 
   .plugin-universal .order .order-kompletnost-notok::before {
     content: url('images/car.png'); /* Zde vložte cestu k obrázku */
     margin-right: 8px; /* Přidá mezeru mezi obrázkem a textem */
     vertical-align: middle; /* Aby obrázek byl zarovnán na střed vůči textu */
+    position: relative;
+    left: 0;
+    top: 2px;
   }
 
 
 
-  .plugin-universal .order .order-kompletnost img {
-    position: relative;
-    left: 0;
-    top: -2px;
-    margin-right: 0;
-}
 
 
 .plugin-universal .order .order-car {
@@ -210,7 +306,19 @@
     font-size: 12px;
     color: #ABABAB;
     margin-top: 6px;
+    display: flex;
+    align-items: center; /* Zarovná obsah včetně pseudo-prvku vertikálně na střed */    
 }
+
+.plugin-universal .order .order-car::before {
+    content: url('images/car.png'); /* Zde vložte cestu k obrázku */
+    margin-right: 8px; /* Přidá mezeru mezi obrázkem a textem */
+    vertical-align: middle; /* Aby obrázek byl zarovnán na střed vůči textu */
+    position: relative;
+    left: 0;
+    top: 2px;
+}
+
 
 .plugin-universal .show-rest {
     text-align: center;
