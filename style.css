@@ -82,18 +82,18 @@
     font-weight: bold;
 }
 
-.plugin-universal .order .order-value {
-    font-size: 14px;
-    float: right;
-    font-weight: bold;
-}
-
 .plugin-universal .order .order-number img {
     position: relative;
     left: 0;
     top: -2px;
     margin-right: 0;
     width: 17px;
+}
+
+.plugin-universal .order .order-value {
+    font-size: 14px;
+    float: right;
+    font-weight: bold;
 }
 
 .plugin-universal .order .order-calendar {
