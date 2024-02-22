@@ -72,6 +72,13 @@
     padding: 10px 0 10px 0;
 }
 
+.plugin-universal .order .order-doklad {
+    font-size: 18px;
+    float: left;
+}
+
+
+
 .plugin-universal .order .order-number {
     font-size: 14px;
     float: left;
