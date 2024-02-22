@@ -100,6 +100,7 @@
     content: url('images/alza.png'); /* Zde vložte cestu k obrázku */
     margin-right: 8px; /* Přidá mezeru mezi obrázkem a textem */
     vertical-align: middle; /* Aby obrázek byl zarovnán na střed vůči textu */
+    height: 20px;
   }
 
 
