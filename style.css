@@ -205,7 +205,8 @@
 .plugin-universal .order .order-status-open {
     float: left;
     font-size: 12px;
-    color: #817f7f;
+    color: white;
+    background-color: #817f7f;
     margin-top: 6px;
 }
 
