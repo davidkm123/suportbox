@@ -281,7 +281,7 @@
 
 
 .plugin-universal .order .order-kompletnost-ok::before {
-    content: url('images/car.png'); /* Zde vložte cestu k obrázku */
+    content: url('images/kosik.png'); /* Zde vložte cestu k obrázku */
     margin-right: 8px; /* Přidá mezeru mezi obrázkem a textem */
     vertical-align: middle; /* Aby obrázek byl zarovnán na střed vůči textu */
     position: relative;
@@ -290,7 +290,7 @@
 }
 
   .plugin-universal .order .order-kompletnost-notok::before {
-    content: url('images/car.png'); /* Zde vložte cestu k obrázku */
+    content: url('images/kosik.png'); /* Zde vložte cestu k obrázku */
     margin-right: 8px; /* Přidá mezeru mezi obrázkem a textem */
     vertical-align: middle; /* Aby obrázek byl zarovnán na střed vůči textu */
     position: relative;
