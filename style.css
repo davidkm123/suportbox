@@ -109,6 +109,22 @@
     top: 2px;
 }
 
+.plugin-universal .order .order-number-drmax {
+    font-size: 14px;
+    float: left;
+    display: flex;
+    align-items: center; /* Zarovná obsah včetně pseudo-prvku vertikálně na střed */    
+}
+
+.plugin-universal .order .order-number-drmax::before {
+    content: url('images/drmax.png'); /* Zde vložte cestu k obrázku */
+    margin-right: 4px; /* Přidá mezeru mezi obrázkem a textem */
+    position: relative;
+    left: 0;
+    top: 2px;
+}
+
+
 .plugin-universal .order .order-number-mall {
     font-size: 14px;
     float: left;
